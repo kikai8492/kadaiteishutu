@@ -1,0 +1,37 @@
+.content {
+  position: relative;
+  left: 110px;
+  
+}
+
+.table {
+  position: relative;
+  right: 110px;
+}
+
+th {
+  width: 150px;
+  height: 7rem;
+  padding: 10px;
+  text-align: right;
+  }
+
+.textarea {
+  width: 480px;
+}
+
+
+
+.button {
+  background-color: #008B8B;
+  padding: 10px;
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  left: 210px;
+  border-width: 1px;
+  }
+
+input[type="submit"][class="button"]:hover {
+  opacity: 0.5;
+}
